@@ -1,0 +1,19 @@
+.build/
+build/
+.DS_Store
+
+# generated, and we do not use Xcode
+*.xcodeproj
+*.xcworkspace
+
+# Claude Code working state
+.claude/
+
+# design notes and implementation plan stay local
+docs/
+
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
